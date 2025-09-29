@@ -229,7 +229,7 @@ class PageHomepage extends StatelessWidget {
                     ),
                     SizedBox(height: 4),
                     Text(
-                      "Rp ${makanan.price}",
+                      "${makanan.price}",
                       style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
